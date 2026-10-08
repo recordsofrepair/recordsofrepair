@@ -20,3 +20,11 @@ A single-page site: material passports for the former Gosford Library. There is 
 ## Updating
 
 Replace `index.html` in the repository and commit. Pages redeploys on its own.
+
+## If you see a 404
+
+- **"There isn't a GitHub Pages site here":** Pages is not switched on, or it has not finished deploying. Check Settings → Pages shows a green "Your site is live" box, and wait a few minutes after saving.
+- **A plain "File not found" page:** the site is on, but `index.html` is not at the top level of the branch you chose. Open the repository's main page and confirm `index.html` is listed there, not inside a folder.
+- **The zip was uploaded as a file:** GitHub does not unzip it. Extract it first, then upload the four files inside.
+- **Wrong address:** project sites live at `https://USERNAME.github.io/REPOSITORY/` (the repository name is case-sensitive, and the address ends in a slash). `https://USERNAME.github.io/` alone only works for a repository named `USERNAME.github.io`.
+- **Private repository:** Pages needs a public repository unless your GitHub plan includes private Pages.
